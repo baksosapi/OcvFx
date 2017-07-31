@@ -12,14 +12,14 @@
     <orderEntry type="library" name="java" level="project" />
     <orderEntry type="module-library">
       <library>
-        <CLASSES>
-          <root url="jar:///usr/local/opt/opencv/share/OpenCV/java/opencv-2413.jar!/" />
-        </CLASSES>
+        <CLASSES />
         <JAVADOC />
-        <SOURCES>
-          <root url="jar:///usr/local/opt/opencv/share/OpenCV/java/opencv-2413.jar!/" />
-        </SOURCES>
+        <NATIVE>
+          <root url="file://$USER_HOME$/OpenCV/opencv-2.4.13/build/lib" />
+        </NATIVE>
+        <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="opencv-2413 (2)" level="project" />
   </component>
 </module>

@@ -52,9 +52,9 @@ class LogReport {
 
     }
 
-    public void append(String fName, int numFace) {
+    public void append(String fName, int numFace, String size) {
 
-        System.out.println("Number : "+numFace);
+//        System.out.println("Number : "+numFace);
 
         try {
 

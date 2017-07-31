@@ -21,6 +21,7 @@ public class FaceDetector {
     private static CascadeClassifier faceDetector;
     private static String photoPath;
     private static LogReport logReport;
+    private static int allZeroFace = 0;
     ClassLoader classLoader = getClass().getClassLoader();
     static File inFile;
     static List<String> list = new ArrayList<>();
@@ -37,7 +38,9 @@ public class FaceDetector {
         String cFile = fd.getFilePath("haarcascade_frontalface_alt.xml");
 //        photoPath =  fd.getFilePath("./image");
 //        photoPath =  fd.getFilePath("./imageTest");
-        photoPath =  fd.getFilePath("./imageTest/10000099.jpg"); // 2
+        photoPath =  fd.getFilePath("./imageTestOS");
+//        photoPath =  fd.getFilePath("./imageTestOS/93001571.jpg");
+//        photoPath =  fd.getFilePath("./imageTest/10000099.jpg"); // 2
 //        photoPath =  fd.getFilePath("./imageTest/15000168.jpg"); // 8
 //        photoPath =  fd.getFilePath("./imageTest/10000859.jpg"); // 4
 //        photoPath =  fd.getFilePath("/Volumes/MacHD/Users/wildan/Myproject/SID/Images/Client/PhotoTest_051216");
@@ -46,9 +49,10 @@ public class FaceDetector {
         System.out.println("Is Directory : "+inFile.isDirectory());
         faceDetector = new CascadeClassifier(cFile);
 
-//        processFile(photoPath);
+        processFile(photoPath);
 
-        processListFile();
+        System.out.println("Undetected Face = "+allZeroFace);
+//        processListFile();
 
 
     }
@@ -64,7 +68,7 @@ public class FaceDetector {
 
         int i = 0;
         for (String path : list) {
-            processImage(fd.getFilePath("./imageTest/" + path));
+            processImage(fd.getFilePath("./imageTest/" + path), 0, 0, 0);
             System.out.println("Process "+ i++ +"/"+list.size());
         }
 
@@ -74,7 +78,7 @@ public class FaceDetector {
 
         if (!inFile.isDirectory()){
 
-            processImage(photoPath);
+            processImage(photoPath, 0, 0, 0);
 
         } else {
 
@@ -82,18 +86,28 @@ public class FaceDetector {
 
             int i = 0;
             assert fileFolder != null;
-            for ( File f : fileFolder ){
-                i++;
-//                System.out.println(f.getPath());
-                processImage(f.toString());
 
-                System.out.println("Process : "+ Integer.toString(i) +" of "+fileFolder.length);
+            for (int j = 1; j < 10; j++) {
+                allZeroFace = 0;
+                for ( File f : fileFolder ){
+                    i++;
+
+//                System.out.println(f.getPath());
+                    double scaleImage = 0 + j*0.1;
+                    processImage(f.toString(), scaleImage, 0, 0 );
+
+//                System.out.println("Process : "+f.getName() +" - "+ Integer.toString(i) +" of "+fileFolder.length);
+                }
+                System.out.println("Undetected Face = "+allZeroFace);
+
             }
-        }
+
+            }
+            
 
     }
 
-    private static void processImage(String fName) {
+    private static void processImage(String fName, double a, int b, int c) {
 //        Mat image = Highgui.imread(fName);
         Mat image = Highgui.imread( fName, Imgproc.COLOR_RGB2GRAY );
 
@@ -103,18 +117,34 @@ public class FaceDetector {
         //
         // https://stackoverflow.com/questions/20801015/recommended-values-for-opencv-detectmultiscale-parameters
         //
-        faceDetector.detectMultiScale(image, faceDetections, 1.1, 3, 2, new Size(50, 50), new Size());
+        b = 2;
+        c = 2;
+//        System.out.println(a);
+        faceDetector.detectMultiScale(image, faceDetections, 1+a, b, c, new Size(50, 50), new Size());
+//        faceDetector.detectMultiScale(image, faceDetections, 1.1, 3, 2, new Size(50, 50), new Size());
 
         int numFace = faceDetections.toArray().length;
 
-        System.out.println(String.format("Detected %s faces", numFace ));
+//        System.out.println(String.format("Detected %s faces", numFace ));
+        if (numFace > 0) {
+            for (int i = 0; i < numFace; i++){
+//                System.out.println(i);
+                Size faceSize = faceDetections.toArray()[i].size();
+//                System.out.println("Face Size: "+faceSize);
+            }
+        } else {
+
+            allZeroFace++;
+
+//            System.out.println("allZeroFace = "+allZeroFace);
+        }
 
         int pos = fName.lastIndexOf("/");
         if (pos > 0) {
             fName = fName.substring(pos+1);
         }
 
-        logReport.append(fName, numFace );
+        logReport.append(fName, numFace, faceDetections.size().toString() );
 
         // Create rectangle to existing face
         for (Rect rect : faceDetections.toArray()) {
@@ -122,10 +152,16 @@ public class FaceDetector {
                     new Scalar(0, 255, 0));
         }
 
+//        saveOutputImage(fName, image);
+    }
+
+    private static void saveOutputImage(String fName, Mat image) {
+
         // Save Output OriImage+Rectangle
-        String filename = "ouput.png";
+        String filename = fName+"_o.png";
         System.out.println(String.format("Writing %s", filename));
         Highgui.imwrite(filename, image);
+
     }
 
     private String getFilePath(String fileName) {
