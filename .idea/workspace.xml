@@ -2,17 +2,1031 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c049e6-62ae-4e6b-976c-5059b1fd224a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/opencv-2413.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/opencv_2413__2_.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ouput.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/imageTest" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang3-3.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/imageTestOSorigin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_6.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/93001571.jpg_o.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OcvFx.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OcvFx/imageTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OcvFx/resources/imageTest" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OcvFx/com/company/FaceDetector.class" afterPath="$PROJECT_DIR$/out/production/OcvFx/com/company/FaceDetector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OcvFx/com/company/LogReport.class" afterPath="$PROJECT_DIR$/out/production/OcvFx/com/company/LogReport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.directory" afterPath="$PROJECT_DIR$/.directory" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OcvFx.iml" afterPath="$PROJECT_DIR$/OcvFx.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/FaceDetector.java" afterPath="$PROJECT_DIR$/src/com/company/FaceDetector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/LogReport.java" afterPath="$PROJECT_DIR$/src/com/company/LogReport.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="output/.directory" />
+    <ignored path="output/10000006.jpg_o.png" />
+    <ignored path="output/10000023.jpg_o.png" />
+    <ignored path="output/10000034.jpg_o.png" />
+    <ignored path="output/10000047.jpg_o.png" />
+    <ignored path="output/10000068.jpg_o.png" />
+    <ignored path="output/10000075.jpg_o.png" />
+    <ignored path="output/10000081.jpg_o.png" />
+    <ignored path="output/10000099.jpg_o.png" />
+    <ignored path="output/10000109.jpg_o.png" />
+    <ignored path="output/10000113.jpg_o.png" />
+    <ignored path="output/10000121.jpg_o.png" />
+    <ignored path="output/10000166.jpg_o.png" />
+    <ignored path="output/10000184.jpg_o.png" />
+    <ignored path="output/10000197.jpg_o.png" />
+    <ignored path="output/10000204.jpg_o.png" />
+    <ignored path="output/10000215.jpg_o.png" />
+    <ignored path="output/10000227.jpg_o.png" />
+    <ignored path="output/10000236.jpg_o.png" />
+    <ignored path="output/10000243.jpg_o.png" />
+    <ignored path="output/10000258.jpg_o.png" />
+    <ignored path="output/10000289.jpg_o.png" />
+    <ignored path="output/10000291.jpg_o.png" />
+    <ignored path="output/10000301.jpg_o.png" />
+    <ignored path="output/10000317.jpg_o.png" />
+    <ignored path="output/10000431.jpg_o.png" />
+    <ignored path="output/10000757.jpg_o.png" />
+    <ignored path="output/10000761.jpg_o.png" />
+    <ignored path="output/10000788.jpg_o.png" />
+    <ignored path="output/10000800.jpg_o.png" />
+    <ignored path="output/10000816.jpg_o.png" />
+    <ignored path="output/10000828.jpg_o.png" />
+    <ignored path="output/10000837.jpg_o.png" />
+    <ignored path="output/10000844.jpg_o.png" />
+    <ignored path="output/10000859.jpg_o.png" />
+    <ignored path="output/10002251.jpg_o.png" />
+    <ignored path="output/10002267.jpg_o.png" />
+    <ignored path="output/10002279.jpg_o.png" />
+    <ignored path="output/10002308.jpg_o.png" />
+    <ignored path="output/10002320.jpg_o.png" />
+    <ignored path="output/10002331.jpg_o.png" />
+    <ignored path="output/10002349.jpg_o.png" />
+    <ignored path="output/10002354.jpg_o.png" />
+    <ignored path="output/10002365.jpg_o.png" />
+    <ignored path="output/10002377.jpg_o.png" />
+    <ignored path="output/10002383.jpg_o.png" />
+    <ignored path="output/10002396.jpg_o.png" />
+    <ignored path="output/10002401.jpg_o.png" />
+    <ignored path="output/10002417.jpg_o.png" />
+    <ignored path="output/10002429.jpg_o.png" />
+    <ignored path="output/10002438.jpg_o.png" />
+    <ignored path="output/10002440.jpg_o.png" />
+    <ignored path="output/10002455.jpg_o.png" />
+    <ignored path="output/10002464.jpg_o.png" />
+    <ignored path="output/10002472.jpg_o.png" />
+    <ignored path="output/10002493.jpg_o.png" />
+    <ignored path="output/10002504.jpg_o.png" />
+    <ignored path="output/10002515.jpg_o.png" />
+    <ignored path="output/10002527.jpg_o.png" />
+    <ignored path="output/10002536.jpg_o.png" />
+    <ignored path="output/10002543.jpg_o.png" />
+    <ignored path="output/10002558.jpg_o.png" />
+    <ignored path="output/10002570.jpg_o.png" />
+    <ignored path="output/10002591.jpg_o.png" />
+    <ignored path="output/10002602.jpg_o.png" />
+    <ignored path="output/10002618.jpg_o.png" />
+    <ignored path="output/10002625.jpg_o.png" />
+    <ignored path="output/10003008.jpg_o.png" />
+    <ignored path="output/10003031.jpg_o.png" />
+    <ignored path="output/10003049.jpg_o.png" />
+    <ignored path="output/10003065.jpg_o.png" />
+    <ignored path="output/10003083.jpg_o.png" />
+    <ignored path="output/10003096.jpg_o.png" />
+    <ignored path="output/10003106.jpg_o.png" />
+    <ignored path="output/10003110.jpg_o.png" />
+    <ignored path="output/10003123.jpg_o.png" />
+    <ignored path="output/10003134.jpg_o.png" />
+    <ignored path="output/10003147.jpg_o.png" />
+    <ignored path="output/10003152.jpg_o.png" />
+    <ignored path="output/10003168.jpg_o.png" />
+    <ignored path="output/10003175.jpg_o.png" />
+    <ignored path="output/10003181.jpg_o.png" />
+    <ignored path="output/10003201.jpg_o.png" />
+    <ignored path="output/10003217.jpg_o.png" />
+    <ignored path="output/10003238.jpg_o.png" />
+    <ignored path="output/10003240.jpg_o.png" />
+    <ignored path="output/10003255.jpg_o.png" />
+    <ignored path="output/10003264.jpg_o.png" />
+    <ignored path="output/10003286.jpg_o.png" />
+    <ignored path="output/10003293.jpg_o.png" />
+    <ignored path="output/10003303.jpg_o.png" />
+    <ignored path="output/10003319.jpg_o.png" />
+    <ignored path="output/10004503.jpg_o.png" />
+    <ignored path="output/10004519.jpg_o.png" />
+    <ignored path="output/10004526.jpg_o.png" />
+    <ignored path="output/10004535.jpg_o.png" />
+    <ignored path="output/10004542.jpg_o.png" />
+    <ignored path="output/10004561.jpg_o.png" />
+    <ignored path="output/10004574.jpg_o.png" />
+    <ignored path="output/10004588.jpg_o.png" />
+    <ignored path="output/10004590.jpg_o.png" />
+    <ignored path="output/10004601.jpg_o.png" />
+    <ignored path="output/10004617.jpg_o.png" />
+    <ignored path="output/10004629.jpg_o.png" />
+    <ignored path="output/10004638.jpg_o.png" />
+    <ignored path="output/10004640.jpg_o.png" />
+    <ignored path="output/10004655.jpg_o.png" />
+    <ignored path="output/10004664.jpg_o.png" />
+    <ignored path="output/10004672.jpg_o.png" />
+    <ignored path="output/10004686.jpg_o.png" />
+    <ignored path="output/10004693.jpg_o.png" />
+    <ignored path="output/10004705.jpg_o.png" />
+    <ignored path="output/10004714.jpg_o.png" />
+    <ignored path="output/10004722.jpg_o.png" />
+    <ignored path="output/10004746.jpg_o.png" />
+    <ignored path="output/10004751.jpg_o.png" />
+    <ignored path="output/10004767.jpg_o.png" />
+    <ignored path="output/10004779.jpg_o.png" />
+    <ignored path="output/10004780.jpg_o.png" />
+    <ignored path="output/10004798.jpg_o.png" />
+    <ignored path="output/10004808.jpg_o.png" />
+    <ignored path="output/10004812.jpg_o.png" />
+    <ignored path="output/10004820.jpg_o.png" />
+    <ignored path="output/10004831.jpg_o.png" />
+    <ignored path="output/10004849.jpg_o.png" />
+    <ignored path="output/10004854.jpg_o.png" />
+    <ignored path="output/10004865.jpg_o.png" />
+    <ignored path="output/10004877.jpg_o.png" />
+    <ignored path="output/10004883.jpg_o.png" />
+    <ignored path="output/10005254.jpg_o.png" />
+    <ignored path="output/10005265.jpg_o.png" />
+    <ignored path="output/10005277.jpg_o.png" />
+    <ignored path="output/10005296.jpg_o.png" />
+    <ignored path="output/10005306.jpg_o.png" />
+    <ignored path="output/10005310.jpg_o.png" />
+    <ignored path="output/10005323.jpg_o.png" />
+    <ignored path="output/10005334.jpg_o.png" />
+    <ignored path="output/10005347.jpg_o.png" />
+    <ignored path="output/10005368.jpg_o.png" />
+    <ignored path="output/10005375.jpg_o.png" />
+    <ignored path="output/10005381.jpg_o.png" />
+    <ignored path="output/10005399.jpg_o.png" />
+    <ignored path="output/10005404.jpg_o.png" />
+    <ignored path="output/10005415.jpg_o.png" />
+    <ignored path="output/10005427.jpg_o.png" />
+    <ignored path="output/10005436.jpg_o.png" />
+    <ignored path="output/10005443.jpg_o.png" />
+    <ignored path="output/10005458.jpg_o.png" />
+    <ignored path="output/10005462.jpg_o.png" />
+    <ignored path="output/10005470.jpg_o.png" />
+    <ignored path="output/10005489.jpg_o.png" />
+    <ignored path="output/10006754.jpg_o.png" />
+    <ignored path="output/10006765.jpg_o.png" />
+    <ignored path="output/10006783.jpg_o.png" />
+    <ignored path="output/10006796.jpg_o.png" />
+    <ignored path="output/10006806.jpg_o.png" />
+    <ignored path="output/10006810.jpg_o.png" />
+    <ignored path="output/10006823.jpg_o.png" />
+    <ignored path="output/10006847.jpg_o.png" />
+    <ignored path="output/10006852.jpg_o.png" />
+    <ignored path="output/10006868.jpg_o.png" />
+    <ignored path="output/10006875.jpg_o.png" />
+    <ignored path="output/10006881.jpg_o.png" />
+    <ignored path="output/10006909.jpg_o.png" />
+    <ignored path="output/10006913.jpg_o.png" />
+    <ignored path="output/10006921.jpg_o.png" />
+    <ignored path="output/10006932.jpg_o.png" />
+    <ignored path="output/10006945.jpg_o.png" />
+    <ignored path="output/10006978.jpg_o.png" />
+    <ignored path="output/10006984.jpg_o.png" />
+    <ignored path="output/10006997.jpg_o.png" />
+    <ignored path="output/10007021.jpg_o.png" />
+    <ignored path="output/10007512.jpg_o.png" />
+    <ignored path="output/10007520.jpg_o.png" />
+    <ignored path="output/10007531.jpg_o.png" />
+    <ignored path="output/10007554.jpg_o.png" />
+    <ignored path="output/10007565.jpg_o.png" />
+    <ignored path="output/10007577.jpg_o.png" />
+    <ignored path="output/10007596.jpg_o.png" />
+    <ignored path="output/10007605.jpg_o.png" />
+    <ignored path="output/10007614.jpg_o.png" />
+    <ignored path="output/10007622.jpg_o.png" />
+    <ignored path="output/10007834.jpg_o.png" />
+    <ignored path="output/11000015.jpg_o.png" />
+    <ignored path="output/11000027.jpg_o.png" />
+    <ignored path="output/11000036.jpg_o.png" />
+    <ignored path="output/11000043.jpg_o.png" />
+    <ignored path="output/11000062.jpg_o.png" />
+    <ignored path="output/11000500.jpg_o.png" />
+    <ignored path="output/11000516.jpg_o.png" />
+    <ignored path="output/11000528.jpg_o.png" />
+    <ignored path="output/11000537.jpg_o.png" />
+    <ignored path="output/11000544.jpg_o.png" />
+    <ignored path="output/11000559.jpg_o.png" />
+    <ignored path="output/11001806.jpg_o.png" />
+    <ignored path="output/11001810.jpg_o.png" />
+    <ignored path="output/11001823.jpg_o.png" />
+    <ignored path="output/11001834.jpg_o.png" />
+    <ignored path="output/11001847.jpg_o.png" />
+    <ignored path="output/11002534.jpg_o.png" />
+    <ignored path="output/11002552.jpg_o.png" />
+    <ignored path="output/11002568.jpg_o.png" />
+    <ignored path="output/11003073.jpg_o.png" />
+    <ignored path="output/11003087.jpg_o.png" />
+    <ignored path="output/11003094.jpg_o.png" />
+    <ignored path="output/11003104.jpg_o.png" />
+    <ignored path="output/11003115.jpg_o.png" />
+    <ignored path="output/11003143.jpg_o.png" />
+    <ignored path="output/11003162.jpg_o.png" />
+    <ignored path="output/11003170.jpg_o.png" />
+    <ignored path="output/11003189.jpg_o.png" />
+    <ignored path="output/11003213.jpg_o.png" />
+    <ignored path="output/11003232.jpg_o.png" />
+    <ignored path="output/11003245.jpg_o.png" />
+    <ignored path="output/11003250.jpg_o.png" />
+    <ignored path="output/11003601.jpg_o.png" />
+    <ignored path="output/11003629.jpg_o.png" />
+    <ignored path="output/11003638.jpg_o.png" />
+    <ignored path="output/11003714.jpg_o.png" />
+    <ignored path="output/11003808.jpg_o.png" />
+    <ignored path="output/11003812.jpg_o.png" />
+    <ignored path="output/11003820.jpg_o.png" />
+    <ignored path="output/11223344.jpg_o.png" />
+    <ignored path="output/12000001.jpg_o.png" />
+    <ignored path="output/12000038.jpg_o.png" />
+    <ignored path="output/12000040.jpg_o.png" />
+    <ignored path="output/12000055.jpg_o.png" />
+    <ignored path="output/12000064.jpg_o.png" />
+    <ignored path="output/12000126.jpg_o.png" />
+    <ignored path="output/12000135.jpg_o.png" />
+    <ignored path="output/12000157.jpg_o.png" />
+    <ignored path="output/12000161.jpg_o.png" />
+    <ignored path="output/12000190.jpg_o.png" />
+    <ignored path="output/12000208.jpg_o.png" />
+    <ignored path="output/12000212.jpg_o.png" />
+    <ignored path="output/12000220.jpg_o.png" />
+    <ignored path="output/12000750.jpg_o.png" />
+    <ignored path="output/12000766.jpg_o.png" />
+    <ignored path="output/12000784.jpg_o.png" />
+    <ignored path="output/12000807.jpg_o.png" />
+    <ignored path="output/12000830.jpg_o.png" />
+    <ignored path="output/12000853.jpg_o.png" />
+    <ignored path="output/12000869.jpg_o.png" />
+    <ignored path="output/12000876.jpg_o.png" />
+    <ignored path="output/12000882.jpg_o.png" />
+    <ignored path="output/12000895.jpg_o.png" />
+    <ignored path="output/12002009.jpg_o.png" />
+    <ignored path="output/12002021.jpg_o.png" />
+    <ignored path="output/12002032.jpg_o.png" />
+    <ignored path="output/12002045.jpg_o.png" />
+    <ignored path="output/12002050.jpg_o.png" />
+    <ignored path="output/12002066.jpg_o.png" />
+    <ignored path="output/12002078.jpg_o.png" />
+    <ignored path="output/12002084.jpg_o.png" />
+    <ignored path="output/12002097.jpg_o.png" />
+    <ignored path="output/12002107.jpg_o.png" />
+    <ignored path="output/12002130.jpg_o.png" />
+    <ignored path="output/12002169.jpg_o.png" />
+    <ignored path="output/12002176.jpg_o.png" />
+    <ignored path="output/12002182.jpg_o.png" />
+    <ignored path="output/12002195.jpg_o.png" />
+    <ignored path="output/12002755.jpg_o.png" />
+    <ignored path="output/12002786.jpg_o.png" />
+    <ignored path="output/12002793.jpg_o.png" />
+    <ignored path="output/12002819.jpg_o.png" />
+    <ignored path="output/12002835.jpg_o.png" />
+    <ignored path="output/12002842.jpg_o.png" />
+    <ignored path="output/12002857.jpg_o.png" />
+    <ignored path="output/12004005.jpg_o.png" />
+    <ignored path="output/12004033.jpg_o.png" />
+    <ignored path="output/12004046.jpg_o.png" />
+    <ignored path="output/12004051.jpg_o.png" />
+    <ignored path="output/12004067.jpg_o.png" />
+    <ignored path="output/12004079.jpg_o.png" />
+    <ignored path="output/12004080.jpg_o.png" />
+    <ignored path="output/12004098.jpg_o.png" />
+    <ignored path="output/12004154.jpg_o.png" />
+    <ignored path="output/12004756.jpg_o.png" />
+    <ignored path="output/12004760.jpg_o.png" />
+    <ignored path="output/12004773.jpg_o.png" />
+    <ignored path="output/12004787.jpg_o.png" />
+    <ignored path="output/12004794.jpg_o.png" />
+    <ignored path="output/12004815.jpg_o.png" />
+    <ignored path="output/13000005.jpg_o.png" />
+    <ignored path="output/13000014.jpg_o.png" />
+    <ignored path="output/13000022.jpg_o.png" />
+    <ignored path="output/13000033.jpg_o.png" />
+    <ignored path="output/13000046.jpg_o.png" />
+    <ignored path="output/13000051.jpg_o.png" />
+    <ignored path="output/13000067.jpg_o.png" />
+    <ignored path="output/13000079.jpg_o.png" />
+    <ignored path="output/13000080.jpg_o.png" />
+    <ignored path="output/13000098.jpg_o.png" />
+    <ignored path="output/13000108.jpg_o.png" />
+    <ignored path="output/13000120.jpg_o.png" />
+    <ignored path="output/13000131.jpg_o.png" />
+    <ignored path="output/13000149.jpg_o.png" />
+    <ignored path="output/13000154.jpg_o.png" />
+    <ignored path="output/13000165.jpg_o.png" />
+    <ignored path="output/13000177.jpg_o.png" />
+    <ignored path="output/13000183.jpg_o.png" />
+    <ignored path="output/13000196.jpg_o.png" />
+    <ignored path="output/13000203.jpg_o.png" />
+    <ignored path="output/13000756.jpg_o.png" />
+    <ignored path="output/13000760.jpg_o.png" />
+    <ignored path="output/13000773.jpg_o.png" />
+    <ignored path="output/13000787.jpg_o.png" />
+    <ignored path="output/13000794.jpg_o.png" />
+    <ignored path="output/13000804.jpg_o.png" />
+    <ignored path="output/13000815.jpg_o.png" />
+    <ignored path="output/13000836.jpg_o.png" />
+    <ignored path="output/13000843.jpg_o.png" />
+    <ignored path="output/13000858.jpg_o.png" />
+    <ignored path="output/13000889.jpg_o.png" />
+    <ignored path="output/13000901.jpg_o.png" />
+    <ignored path="output/13000917.jpg_o.png" />
+    <ignored path="output/13000929.jpg_o.png" />
+    <ignored path="output/13000938.jpg_o.png" />
+    <ignored path="output/13002002.jpg_o.png" />
+    <ignored path="output/13002025.jpg_o.png" />
+    <ignored path="output/13002041.jpg_o.png" />
+    <ignored path="output/13002056.jpg_o.png" />
+    <ignored path="output/13002060.jpg_o.png" />
+    <ignored path="output/13002070.jpg_o.png" />
+    <ignored path="output/13002087.jpg_o.png" />
+    <ignored path="output/13002115.jpg_o.png" />
+    <ignored path="output/13002126.jpg_o.png" />
+    <ignored path="output/13002127.jpg_o.png" />
+    <ignored path="output/13002143.jpg_o.png" />
+    <ignored path="output/13002170.jpg_o.png" />
+    <ignored path="output/13002189.jpg_o.png" />
+    <ignored path="output/13002191.jpg_o.png" />
+    <ignored path="output/13002209.jpg_o.png" />
+    <ignored path="output/13002232.jpg_o.png" />
+    <ignored path="output/13002767.jpg_o.png" />
+    <ignored path="output/13002779.jpg_o.png" />
+    <ignored path="output/13002780.jpg_o.png" />
+    <ignored path="output/13002820.jpg_o.png" />
+    <ignored path="output/13002831.jpg_o.png" />
+    <ignored path="output/13002849.jpg_o.png" />
+    <ignored path="output/13002854.jpg_o.png" />
+    <ignored path="output/13003798.jpg_o.png" />
+    <ignored path="output/13004001.jpg_o.png" />
+    <ignored path="output/13004029.jpg_o.png" />
+    <ignored path="output/13004038.jpg_o.png" />
+    <ignored path="output/13004040.jpg_o.png" />
+    <ignored path="output/13004055.jpg_o.png" />
+    <ignored path="output/13004064.jpg_o.png" />
+    <ignored path="output/13004072.jpg_o.png" />
+    <ignored path="output/13004086.jpg_o.png" />
+    <ignored path="output/13004093.jpg_o.png" />
+    <ignored path="output/13004103.jpg_o.png" />
+    <ignored path="output/13004119.jpg_o.png" />
+    <ignored path="output/13004126.jpg_o.png" />
+    <ignored path="output/13004135.jpg_o.png" />
+    <ignored path="output/13004142.jpg_o.png" />
+    <ignored path="output/13004157.jpg_o.png" />
+    <ignored path="output/13004161.jpg_o.png" />
+    <ignored path="output/13004174.jpg_o.png" />
+    <ignored path="output/13004188.jpg_o.png" />
+    <ignored path="output/13004190.jpg_o.png" />
+    <ignored path="output/13004750.jpg_o.png" />
+    <ignored path="output/13004778.jpg_o.png" />
+    <ignored path="output/13004784.jpg_o.png" />
+    <ignored path="output/13004797.jpg_o.png" />
+    <ignored path="output/13004807.jpg_o.png" />
+    <ignored path="output/13004811.jpg_o.png" />
+    <ignored path="output/13004824.jpg_o.png" />
+    <ignored path="output/13004830.jpg_o.png" />
+    <ignored path="output/13004848.jpg_o.png" />
+    <ignored path="output/13004853.jpg_o.png" />
+    <ignored path="output/13004869.jpg_o.png" />
+    <ignored path="output/14000000.jpg_o.png" />
+    <ignored path="output/14000016.jpg_o.png" />
+    <ignored path="output/14000028.jpg_o.png" />
+    <ignored path="output/14000037.jpg_o.png" />
+    <ignored path="output/14000044.jpg_o.png" />
+    <ignored path="output/14000059.jpg_o.png" />
+    <ignored path="output/14000063.jpg_o.png" />
+    <ignored path="output/14000071.jpg_o.png" />
+    <ignored path="output/14000085.jpg_o.png" />
+    <ignored path="output/14000092.jpg_o.png" />
+    <ignored path="output/14000102.jpg_o.png" />
+    <ignored path="output/14000118.jpg_o.png" />
+    <ignored path="output/14000125.jpg_o.png" />
+    <ignored path="output/14000139.jpg_o.png" />
+    <ignored path="output/14000141.jpg_o.png" />
+    <ignored path="output/14000156.jpg_o.png" />
+    <ignored path="output/14000501.jpg_o.png" />
+    <ignored path="output/14000517.jpg_o.png" />
+    <ignored path="output/14000529.jpg_o.png" />
+    <ignored path="output/14000538.jpg_o.png" />
+    <ignored path="output/14000555.jpg_o.png" />
+    <ignored path="output/14000572.jpg_o.png" />
+    <ignored path="output/14001502.jpg_o.png" />
+    <ignored path="output/14001518.jpg_o.png" />
+    <ignored path="output/14001525.jpg_o.png" />
+    <ignored path="output/14001539.jpg_o.png" />
+    <ignored path="output/14001556.jpg_o.png" />
+    <ignored path="output/14001560.jpg_o.png" />
+    <ignored path="output/14001573.jpg_o.png" />
+    <ignored path="output/14001587.jpg_o.png" />
+    <ignored path="output/14001594.jpg_o.png" />
+    <ignored path="output/14001600.jpg_o.png" />
+    <ignored path="output/14001616.jpg_o.png" />
+    <ignored path="output/14001628.jpg_o.png" />
+    <ignored path="output/14001637.jpg_o.png" />
+    <ignored path="output/14001644.jpg_o.png" />
+    <ignored path="output/14001659.jpg_o.png" />
+    <ignored path="output/14001663.jpg_o.png" />
+    <ignored path="output/14001671.jpg_o.png" />
+    <ignored path="output/14001685.jpg_o.png" />
+    <ignored path="output/14002012.jpg_o.png" />
+    <ignored path="output/14002020.jpg_o.png" />
+    <ignored path="output/14002031.jpg_o.png" />
+    <ignored path="output/14002049.jpg_o.png" />
+    <ignored path="output/14002054.jpg_o.png" />
+    <ignored path="output/14002077.jpg_o.png" />
+    <ignored path="output/14002083.jpg_o.png" />
+    <ignored path="output/14002096.jpg_o.png" />
+    <ignored path="output/14003003.jpg_o.png" />
+    <ignored path="output/14003019.jpg_o.png" />
+    <ignored path="output/14003026.jpg_o.png" />
+    <ignored path="output/14003035.jpg_o.png" />
+    <ignored path="output/14003042.jpg_o.png" />
+    <ignored path="output/14003057.jpg_o.png" />
+    <ignored path="output/14003061.jpg_o.png" />
+    <ignored path="output/14003074.jpg_o.png" />
+    <ignored path="output/14003088.jpg_o.png" />
+    <ignored path="output/14003100.jpg_o.png" />
+    <ignored path="output/14003116.jpg_o.png" />
+    <ignored path="output/14003128.jpg_o.png" />
+    <ignored path="output/14003137.jpg_o.png" />
+    <ignored path="output/14003144.jpg_o.png" />
+    <ignored path="output/14003159.jpg_o.png" />
+    <ignored path="output/14003163.jpg_o.png" />
+    <ignored path="output/14003171.jpg_o.png" />
+    <ignored path="output/14003185.jpg_o.png" />
+    <ignored path="output/14003205.jpg_o.png" />
+    <ignored path="output/14003214.jpg_o.png" />
+    <ignored path="output/14003504.jpg_o.png" />
+    <ignored path="output/14003515.jpg_o.png" />
+    <ignored path="output/14003527.jpg_o.png" />
+    <ignored path="output/14003536.jpg_o.png" />
+    <ignored path="output/14003543.jpg_o.png" />
+    <ignored path="output/14003562.jpg_o.png" />
+    <ignored path="output/14003570.jpg_o.png" />
+    <ignored path="output/14003589.jpg_o.png" />
+    <ignored path="output/14003591.jpg_o.png" />
+    <ignored path="output/14003618.jpg_o.png" />
+    <ignored path="output/14003625.jpg_o.png" />
+    <ignored path="output/14004017.jpg_o.png" />
+    <ignored path="output/14004508.jpg_o.png" />
+    <ignored path="output/14004512.jpg_o.png" />
+    <ignored path="output/14004520.jpg_o.png" />
+    <ignored path="output/14004531.jpg_o.png" />
+    <ignored path="output/14004549.jpg_o.png" />
+    <ignored path="output/14004554.jpg_o.png" />
+    <ignored path="output/14004565.jpg_o.png" />
+    <ignored path="output/14004577.jpg_o.png" />
+    <ignored path="output/14004596.jpg_o.png" />
+    <ignored path="output/14004605.jpg_o.png" />
+    <ignored path="output/14004614.jpg_o.png" />
+    <ignored path="output/14004622.jpg_o.png" />
+    <ignored path="output/14004633.jpg_o.png" />
+    <ignored path="output/14004646.jpg_o.png" />
+    <ignored path="output/14004651.jpg_o.png" />
+    <ignored path="output/14004667.jpg_o.png" />
+    <ignored path="output/14004679.jpg_o.png" />
+    <ignored path="output/14004680.jpg_o.png" />
+    <ignored path="output/14004698.jpg_o.png" />
+    <ignored path="output/14004701.jpg_o.png" />
+    <ignored path="output/14005005.jpg_o.png" />
+    <ignored path="output/14005014.jpg_o.png" />
+    <ignored path="output/14005033.jpg_o.png" />
+    <ignored path="output/14005046.jpg_o.png" />
+    <ignored path="output/14005079.jpg_o.png" />
+    <ignored path="output/14005080.jpg_o.png" />
+    <ignored path="output/14005098.jpg_o.png" />
+    <ignored path="output/14005108.jpg_o.png" />
+    <ignored path="output/14005112.jpg_o.png" />
+    <ignored path="output/14005120.jpg_o.png" />
+    <ignored path="output/14005131.jpg_o.png" />
+    <ignored path="output/14005149.jpg_o.png" />
+    <ignored path="output/14005154.jpg_o.png" />
+    <ignored path="output/14005165.jpg_o.png" />
+    <ignored path="output/15000168.jpg_o.png" />
+    <ignored path="output/15000175.jpg_o.png" />
+    <ignored path="output/15000199.jpg_o.png" />
+    <ignored path="output/15000201.jpg_o.png" />
+    <ignored path="output/15000576.jpg_o.png" />
+    <ignored path="output/15000582.jpg_o.png" />
+    <ignored path="output/15000595.jpg_o.png" />
+    <ignored path="output/15001575.jpg_o.png" />
+    <ignored path="output/15001581.jpg_o.png" />
+    <ignored path="output/15001599.jpg_o.png" />
+    <ignored path="output/15001608.jpg_o.png" />
+    <ignored path="output/15001612.jpg_o.png" />
+    <ignored path="output/15002059.jpg_o.png" />
+    <ignored path="output/15002063.jpg_o.png" />
+    <ignored path="output/15002092.jpg_o.png" />
+    <ignored path="output/15003154.jpg_o.png" />
+    <ignored path="output/15003165.jpg_o.png" />
+    <ignored path="output/15003177.jpg_o.png" />
+    <ignored path="output/15003183.jpg_o.png" />
+    <ignored path="output/15003196.jpg_o.png" />
+    <ignored path="output/15003203.jpg_o.png" />
+    <ignored path="output/15003652.jpg_o.png" />
+    <ignored path="output/15003668.jpg_o.png" />
+    <ignored path="output/15003675.jpg_o.png" />
+    <ignored path="output/15004642.jpg_o.png" />
+    <ignored path="output/15004657.jpg_o.png" />
+    <ignored path="output/16000057.jpg_o.png" />
+    <ignored path="output/16000088.jpg_o.png" />
+    <ignored path="output/16000090.jpg_o.png" />
+    <ignored path="output/16000100.jpg_o.png" />
+    <ignored path="output/16000116.jpg_o.png" />
+    <ignored path="output/16000128.jpg_o.png" />
+    <ignored path="output/16000137.jpg_o.png" />
+    <ignored path="output/16000144.jpg_o.png" />
+    <ignored path="output/16000159.jpg_o.png" />
+    <ignored path="output/16000163.jpg_o.png" />
+    <ignored path="output/16000185.jpg_o.png" />
+    <ignored path="output/16000396.jpg_o.png" />
+    <ignored path="output/16000417.jpg_o.png" />
+    <ignored path="output/16000429.jpg_o.png" />
+    <ignored path="output/16000440.jpg_o.png" />
+    <ignored path="output/16000464.jpg_o.png" />
+    <ignored path="output/16000472.jpg_o.png" />
+    <ignored path="output/16000486.jpg_o.png" />
+    <ignored path="output/16001332.jpg_o.png" />
+    <ignored path="output/16001345.jpg_o.png" />
+    <ignored path="output/16001366.jpg_o.png" />
+    <ignored path="output/16001378.jpg_o.png" />
+    <ignored path="output/16001384.jpg_o.png" />
+    <ignored path="output/16001397.jpg_o.png" />
+    <ignored path="output/16001402.jpg_o.png" />
+    <ignored path="output/16001418.jpg_o.png" />
+    <ignored path="output/16001439.jpg_o.png" />
+    <ignored path="output/16001456.jpg_o.png" />
+    <ignored path="output/16001661.jpg_o.png" />
+    <ignored path="output/16001674.jpg_o.png" />
+    <ignored path="output/16001688.jpg_o.png" />
+    <ignored path="output/16001690.jpg_o.png" />
+    <ignored path="output/16001707.jpg_o.png" />
+    <ignored path="output/16001724.jpg_o.png" />
+    <ignored path="output/16002454.jpg_o.png" />
+    <ignored path="output/16002465.jpg_o.png" />
+    <ignored path="output/16002477.jpg_o.png" />
+    <ignored path="output/16002496.jpg_o.png" />
+    <ignored path="output/16002505.jpg_o.png" />
+    <ignored path="output/16002514.jpg_o.png" />
+    <ignored path="output/16002522.jpg_o.png" />
+    <ignored path="output/16002533.jpg_o.png" />
+    <ignored path="output/16002546.jpg_o.png" />
+    <ignored path="output/16002551.jpg_o.png" />
+    <ignored path="output/16002567.jpg_o.png" />
+    <ignored path="output/16002579.jpg_o.png" />
+    <ignored path="output/16002837.jpg_o.png" />
+    <ignored path="output/16002844.jpg_o.png" />
+    <ignored path="output/16002859.jpg_o.png" />
+    <ignored path="output/16002863.jpg_o.png" />
+    <ignored path="output/16002871.jpg_o.png" />
+    <ignored path="output/16002885.jpg_o.png" />
+    <ignored path="output/16002902.jpg_o.png" />
+    <ignored path="output/16003659.jpg_o.png" />
+    <ignored path="output/16003663.jpg_o.png" />
+    <ignored path="output/16003671.jpg_o.png" />
+    <ignored path="output/16003685.jpg_o.png" />
+    <ignored path="output/16003692.jpg_o.png" />
+    <ignored path="output/16003709.jpg_o.png" />
+    <ignored path="output/16003713.jpg_o.png" />
+    <ignored path="output/16003721.jpg_o.png" />
+    <ignored path="output/16003732.jpg_o.png" />
+    <ignored path="output/16003750.jpg_o.png" />
+    <ignored path="output/16004048.jpg_o.png" />
+    <ignored path="output/16004069.jpg_o.png" />
+    <ignored path="output/16004076.jpg_o.png" />
+    <ignored path="output/16004095.jpg_o.png" />
+    <ignored path="output/16745689.jpg_o.png" />
+    <ignored path="output/20006777.jpg_o.png" />
+    <ignored path="output/45678906.jpg_o.png" />
+    <ignored path="output/54323476.jpg_o.png" />
+    <ignored path="output/67238945.jpg_o.png" />
+    <ignored path="output/87654321.jpg_o.png" />
+    <ignored path="output/92003202.jpg_o.png" />
+    <ignored path="output/92003633.jpg_o.png" />
+    <ignored path="output/93000003.jpg_o.png" />
+    <ignored path="output/93000019.jpg_o.png" />
+    <ignored path="output/93000057.jpg_o.png" />
+    <ignored path="output/93000061.jpg_o.png" />
+    <ignored path="output/93000074.jpg_o.png" />
+    <ignored path="output/93000088.jpg_o.png" />
+    <ignored path="output/93000116.jpg_o.png" />
+    <ignored path="output/93000128.jpg_o.png" />
+    <ignored path="output/93000137.jpg_o.png" />
+    <ignored path="output/93000144.jpg_o.png" />
+    <ignored path="output/93000159.jpg_o.png" />
+    <ignored path="output/93001036.jpg_o.png" />
+    <ignored path="output/93001043.jpg_o.png" />
+    <ignored path="output/93001058.jpg_o.png" />
+    <ignored path="output/93001062.jpg_o.png" />
+    <ignored path="output/93001070.jpg_o.png" />
+    <ignored path="output/93001089.jpg_o.png" />
+    <ignored path="output/93001091.jpg_o.png" />
+    <ignored path="output/93001500.jpg_o.png" />
+    <ignored path="output/93001516.jpg_o.png" />
+    <ignored path="output/93001528.jpg_o.png" />
+    <ignored path="output/93001537.jpg_o.png" />
+    <ignored path="output/93001544.jpg_o.png" />
+    <ignored path="output/93001559.jpg_o.png" />
+    <ignored path="output/93001563.jpg_o.png" />
+    <ignored path="output/93001571.jpg_o.png" />
+    <ignored path="output/93001585.jpg_o.png" />
+    <ignored path="output/93001592.jpg_o.png" />
+    <ignored path="output/93001603.jpg_o.png" />
+    <ignored path="output/93001626.jpg_o.png" />
+    <ignored path="output/93001635.jpg_o.png" />
+    <ignored path="output/93001642.jpg_o.png" />
+    <ignored path="output/93001657.jpg_o.png" />
+    <ignored path="output/93001661.jpg_o.png" />
+    <ignored path="output/93001674.jpg_o.png" />
+    <ignored path="output/93001688.jpg_o.png" />
+    <ignored path="output/93002006.jpg_o.png" />
+    <ignored path="output/93002010.jpg_o.png" />
+    <ignored path="output/93002023.jpg_o.png" />
+    <ignored path="output/93002034.jpg_o.png" />
+    <ignored path="output/93002047.jpg_o.png" />
+    <ignored path="output/93002052.jpg_o.png" />
+    <ignored path="output/93002068.jpg_o.png" />
+    <ignored path="output/93003001.jpg_o.png" />
+    <ignored path="output/93003017.jpg_o.png" />
+    <ignored path="output/93003029.jpg_o.png" />
+    <ignored path="output/93003038.jpg_o.png" />
+    <ignored path="output/93003040.jpg_o.png" />
+    <ignored path="output/93003055.jpg_o.png" />
+    <ignored path="output/93003064.jpg_o.png" />
+    <ignored path="output/93003072.jpg_o.png" />
+    <ignored path="output/93003086.jpg_o.png" />
+    <ignored path="output/93003103.jpg_o.png" />
+    <ignored path="output/93003126.jpg_o.png" />
+    <ignored path="output/93003135.jpg_o.png" />
+    <ignored path="output/93003157.jpg_o.png" />
+    <ignored path="output/93003161.jpg_o.png" />
+    <ignored path="output/93003525.jpg_o.png" />
+    <ignored path="output/93003539.jpg_o.png" />
+    <ignored path="output/93003541.jpg_o.png" />
+    <ignored path="output/93003556.jpg_o.png" />
+    <ignored path="output/93003560.jpg_o.png" />
+    <ignored path="output/93003573.jpg_o.png" />
+    <ignored path="output/93003587.jpg_o.png" />
+    <ignored path="output/93003594.jpg_o.png" />
+    <ignored path="output/93003616.jpg_o.png" />
+    <ignored path="output/93003637.jpg_o.png" />
+    <ignored path="output/93004506.jpg_o.png" />
+    <ignored path="output/93004510.jpg_o.png" />
+    <ignored path="output/93004523.jpg_o.png" />
+    <ignored path="output/93004547.jpg_o.png" />
+    <ignored path="output/93004552.jpg_o.png" />
+    <ignored path="output/93004568.jpg_o.png" />
+    <ignored path="output/93004575.jpg_o.png" />
+    <ignored path="output/93004581.jpg_o.png" />
+    <ignored path="output/93004599.jpg_o.png" />
+    <ignored path="output/93004608.jpg_o.png" />
+    <ignored path="output/93004612.jpg_o.png" />
+    <ignored path="output/93004620.jpg_o.png" />
+    <ignored path="output/93004631.jpg_o.png" />
+    <ignored path="output/93004649.jpg_o.png" />
+    <ignored path="output/93005008.jpg_o.png" />
+    <ignored path="output/93005012.jpg_o.png" />
+    <ignored path="output/93005020.jpg_o.png" />
+    <ignored path="output/93005031.jpg_o.png" />
+    <ignored path="output/93005054.jpg_o.png" />
+    <ignored path="output/93005077.jpg_o.png" />
+    <ignored path="output/93005083.jpg_o.png" />
+    <ignored path="output/95000000.jpg_o.png" />
+    <ignored path="output/95000016.jpg_o.png" />
+    <ignored path="output/95000028.jpg_o.png" />
+    <ignored path="output/95000037.jpg_o.png" />
+    <ignored path="output/95000044.jpg_o.png" />
+    <ignored path="output/95000059.jpg_o.png" />
+    <ignored path="output/95000063.jpg_o.png" />
+    <ignored path="output/95000085.jpg_o.png" />
+    <ignored path="output/95000092.jpg_o.png" />
+    <ignored path="output/95000102.jpg_o.png" />
+    <ignored path="output/95000118.jpg_o.png" />
+    <ignored path="output/95000125.jpg_o.png" />
+    <ignored path="output/95000141.jpg_o.png" />
+    <ignored path="output/95000156.jpg_o.png" />
+    <ignored path="output/95000160.jpg_o.png" />
+    <ignored path="output/95000501.jpg_o.png" />
+    <ignored path="output/95000517.jpg_o.png" />
+    <ignored path="output/95000538.jpg_o.png" />
+    <ignored path="output/95000540.jpg_o.png" />
+    <ignored path="output/95001502.jpg_o.png" />
+    <ignored path="output/95001518.jpg_o.png" />
+    <ignored path="output/95001525.jpg_o.png" />
+    <ignored path="output/95001539.jpg_o.png" />
+    <ignored path="output/95001541.jpg_o.png" />
+    <ignored path="output/95001556.jpg_o.png" />
+    <ignored path="output/95001560.jpg_o.png" />
+    <ignored path="output/95001573.jpg_o.png" />
+    <ignored path="output/95001587.jpg_o.png" />
+    <ignored path="output/95001594.jpg_o.png" />
+    <ignored path="output/95001600.jpg_o.png" />
+    <ignored path="output/95001616.jpg_o.png" />
+    <ignored path="output/95001628.jpg_o.png" />
+    <ignored path="output/95001637.jpg_o.png" />
+    <ignored path="output/95001659.jpg_o.png" />
+    <ignored path="output/95002008.jpg_o.png" />
+    <ignored path="output/95002012.jpg_o.png" />
+    <ignored path="output/95002020.jpg_o.png" />
+    <ignored path="output/95002031.jpg_o.png" />
+    <ignored path="output/95002049.jpg_o.png" />
+    <ignored path="output/95002054.jpg_o.png" />
+    <ignored path="output/95002065.jpg_o.png" />
+    <ignored path="output/95002077.jpg_o.png" />
+    <ignored path="output/95002083.jpg_o.png" />
+    <ignored path="output/95003003.jpg_o.png" />
+    <ignored path="output/95003019.jpg_o.png" />
+    <ignored path="output/95003026.jpg_o.png" />
+    <ignored path="output/95003035.jpg_o.png" />
+    <ignored path="output/95003042.jpg_o.png" />
+    <ignored path="output/95003061.jpg_o.png" />
+    <ignored path="output/95003074.jpg_o.png" />
+    <ignored path="output/95003088.jpg_o.png" />
+    <ignored path="output/95003090.jpg_o.png" />
+    <ignored path="output/95003100.jpg_o.png" />
+    <ignored path="output/95003116.jpg_o.png" />
+    <ignored path="output/95003128.jpg_o.png" />
+    <ignored path="output/95003137.jpg_o.png" />
+    <ignored path="output/95003159.jpg_o.png" />
+    <ignored path="output/95003163.jpg_o.png" />
+    <ignored path="output/95003185.jpg_o.png" />
+    <ignored path="output/95003192.jpg_o.png" />
+    <ignored path="output/95003205.jpg_o.png" />
+    <ignored path="output/95003214.jpg_o.png" />
+    <ignored path="output/95003222.jpg_o.png" />
+    <ignored path="output/95003527.jpg_o.png" />
+    <ignored path="output/95003536.jpg_o.png" />
+    <ignored path="output/95003543.jpg_o.png" />
+    <ignored path="output/95003562.jpg_o.png" />
+    <ignored path="output/95003602.jpg_o.png" />
+    <ignored path="output/95003618.jpg_o.png" />
+    <ignored path="output/95003625.jpg_o.png" />
+    <ignored path="output/95003639.jpg_o.png" />
+    <ignored path="output/95003656.jpg_o.png" />
+    <ignored path="output/95004508.jpg_o.png" />
+    <ignored path="output/95004512.jpg_o.png" />
+    <ignored path="output/95004520.jpg_o.png" />
+    <ignored path="output/95004531.jpg_o.png" />
+    <ignored path="output/95004549.jpg_o.png" />
+    <ignored path="output/95004554.jpg_o.png" />
+    <ignored path="output/95004565.jpg_o.png" />
+    <ignored path="output/95004577.jpg_o.png" />
+    <ignored path="output/95004583.jpg_o.png" />
+    <ignored path="output/95004596.jpg_o.png" />
+    <ignored path="output/95004605.jpg_o.png" />
+    <ignored path="output/95004614.jpg_o.png" />
+    <ignored path="output/95004622.jpg_o.png" />
+    <ignored path="output/95004633.jpg_o.png" />
+    <ignored path="output/95004646.jpg_o.png" />
+    <ignored path="output/95004651.jpg_o.png" />
+    <ignored path="output/95004679.jpg_o.png" />
+    <ignored path="output/95004680.jpg_o.png" />
+    <ignored path="output/95004698.jpg_o.png" />
+    <ignored path="output/95005005.jpg_o.png" />
+    <ignored path="output/95005014.jpg_o.png" />
+    <ignored path="output/95005022.jpg_o.png" />
+    <ignored path="output/95005033.jpg_o.png" />
+    <ignored path="output/95005046.jpg_o.png" />
+    <ignored path="output/95005079.jpg_o.png" />
+    <ignored path="output/95005112.jpg_o.png" />
+    <ignored path="output/95005120.jpg_o.png" />
+    <ignored path="output/95005149.jpg_o.png" />
+    <ignored path="output/95005165.jpg_o.png" />
+    <ignored path="output/95005177.jpg_o.png" />
+    <ignored path="output/95005196.jpg_o.png" />
+    <ignored path="output/96000108.jpg_o.png" />
+    <ignored path="output/96000120.jpg_o.png" />
+    <ignored path="output/96000131.jpg_o.png" />
+    <ignored path="output/96000149.jpg_o.png" />
+    <ignored path="output/96000165.jpg_o.png" />
+    <ignored path="output/96000177.jpg_o.png" />
+    <ignored path="output/96000183.jpg_o.png" />
+    <ignored path="output/96000196.jpg_o.png" />
+    <ignored path="output/96000203.jpg_o.png" />
+    <ignored path="output/96000226.jpg_o.png" />
+    <ignored path="output/96000261.jpg_o.png" />
+    <ignored path="output/96000274.jpg_o.png" />
+    <ignored path="output/96000288.jpg_o.png" />
+    <ignored path="output/96000290.jpg_o.png" />
+    <ignored path="output/96000300.jpg_o.png" />
+    <ignored path="output/96000316.jpg_o.png" />
+    <ignored path="output/96000328.jpg_o.png" />
+    <ignored path="output/96000385.jpg_o.png" />
+    <ignored path="output/96000407.jpg_o.png" />
+    <ignored path="output/96000411.jpg_o.png" />
+    <ignored path="output/96000424.jpg_o.png" />
+    <ignored path="output/96000430.jpg_o.png" />
+    <ignored path="output/96001111.jpg_o.png" />
+    <ignored path="output/96001124.jpg_o.png" />
+    <ignored path="output/96001130.jpg_o.png" />
+    <ignored path="output/96001148.jpg_o.png" />
+    <ignored path="output/96001176.jpg_o.png" />
+    <ignored path="output/96001195.jpg_o.png" />
+    <ignored path="output/96001202.jpg_o.png" />
+    <ignored path="output/96001225.jpg_o.png" />
+    <ignored path="output/96001241.jpg_o.png" />
+    <ignored path="output/96001260.jpg_o.png" />
+    <ignored path="output/96001287.jpg_o.png" />
+    <ignored path="output/96001294.jpg_o.png" />
+    <ignored path="output/96001304.jpg_o.png" />
+    <ignored path="output/96001315.jpg_o.png" />
+    <ignored path="output/96001358.jpg_o.png" />
+    <ignored path="output/96001362.jpg_o.png" />
+    <ignored path="output/96002627.jpg_o.png" />
+    <ignored path="output/96002629.jpg_o.png" />
+    <ignored path="output/96002640.jpg_o.png" />
+    <ignored path="output/96002655.jpg_o.png" />
+    <ignored path="output/96002664.jpg_o.png" />
+    <ignored path="output/96002686.jpg_o.png" />
+    <ignored path="output/96002693.jpg_o.png" />
+    <ignored path="output/96002705.jpg_o.png" />
+    <ignored path="output/96002714.jpg_o.png" />
+    <ignored path="output/96002733.jpg_o.png" />
+    <ignored path="output/96002746.jpg_o.png" />
+    <ignored path="output/96002751.jpg_o.png" />
+    <ignored path="output/96002767.jpg_o.png" />
+    <ignored path="output/96002779.jpg_o.png" />
+    <ignored path="output/96002780.jpg_o.png" />
+    <ignored path="output/96002798.jpg_o.png" />
+    <ignored path="output/96002808.jpg_o.png" />
+    <ignored path="output/96002812.jpg_o.png" />
+    <ignored path="output/96002820.jpg_o.png" />
+    <ignored path="output/96002831.jpg_o.png" />
+    <ignored path="output/96002854.jpg_o.png" />
+    <ignored path="output/96002865.jpg_o.png" />
+    <ignored path="output/96002877.jpg_o.png" />
+    <ignored path="output/96002883.jpg_o.png" />
+    <ignored path="output/96002906.jpg_o.png" />
+    <ignored path="output/96002923.jpg_o.png" />
+    <ignored path="output/96002934.jpg_o.png" />
+    <ignored path="output/96002947.jpg_o.png" />
+    <ignored path="output/96002952.jpg_o.png" />
+    <ignored path="output/96002968.jpg_o.png" />
+    <ignored path="output/96003620.jpg_o.png" />
+    <ignored path="output/96003649.jpg_o.png" />
+    <ignored path="output/96003677.jpg_o.png" />
+    <ignored path="output/96003683.jpg_o.png" />
+    <ignored path="output/96003696.jpg_o.png" />
+    <ignored path="output/96003715.jpg_o.png" />
+    <ignored path="output/96003727.jpg_o.png" />
+    <ignored path="output/96003743.jpg_o.png" />
+    <ignored path="output/96003758.jpg_o.png" />
+    <ignored path="output/96003762.jpg_o.png" />
+    <ignored path="output/96003770.jpg_o.png" />
+    <ignored path="output/96003789.jpg_o.png" />
+    <ignored path="output/96003791.jpg_o.png" />
+    <ignored path="output/96003801.jpg_o.png" />
+    <ignored path="output/96003829.jpg_o.png" />
+    <ignored path="output/96005092.jpg_o.png" />
+    <ignored path="output/96005102.jpg_o.png" />
+    <ignored path="output/96005118.jpg_o.png" />
+    <ignored path="output/96005125.jpg_o.png" />
+    <ignored path="output/96005139.jpg_o.png" />
+    <ignored path="output/96005141.jpg_o.png" />
+    <ignored path="output/96005156.jpg_o.png" />
+    <ignored path="output/96005160.jpg_o.png" />
+    <ignored path="output/96005173.jpg_o.png" />
+    <ignored path="output/96005187.jpg_o.png" />
+    <ignored path="output/96005194.jpg_o.png" />
+    <ignored path="output/96005207.jpg_o.png" />
+    <ignored path="output/96005224.jpg_o.png" />
+    <ignored path="output/96005230.jpg_o.png" />
+    <ignored path="output/96005248.jpg_o.png" />
+    <ignored path="output/96005253.jpg_o.png" />
+    <ignored path="output/96005269.jpg_o.png" />
+    <ignored path="output/96005276.jpg_o.png" />
+    <ignored path="output/96005282.jpg_o.png" />
+    <ignored path="output/96005295.jpg_o.png" />
+    <ignored path="output/96005305.jpg_o.png" />
+    <ignored path="output/96005314.jpg_o.png" />
+    <ignored path="output/96005322.jpg_o.png" />
+    <ignored path="output/96005333.jpg_o.png" />
+    <ignored path="output/96005346.jpg_o.png" />
+    <ignored path="output/96005351.jpg_o.png" />
+    <ignored path="output/96006091.jpg_o.png" />
+    <ignored path="output/96006101.jpg_o.png" />
+    <ignored path="output/96006117.jpg_o.png" />
+    <ignored path="output/96006129.jpg_o.png" />
+    <ignored path="output/96006138.jpg_o.png" />
+    <ignored path="output/96006155.jpg_o.png" />
+    <ignored path="output/96006172.jpg_o.png" />
+    <ignored path="output/96006186.jpg_o.png" />
+    <ignored path="output/96006193.jpg_o.png" />
+    <ignored path="output/96006206.jpg_o.png" />
+    <ignored path="output/96006210.jpg_o.png" />
+    <ignored path="output/96006223.jpg_o.png" />
+    <ignored path="output/96006252.jpg_o.png" />
+    <ignored path="output/96006268.jpg_o.png" />
+    <ignored path="output/97000015.jpg_o.png" />
+    <ignored path="output/97000027.jpg_o.png" />
+    <ignored path="output/97000036.jpg_o.png" />
+    <ignored path="output/97000043.jpg_o.png" />
+    <ignored path="output/97000058.jpg_o.png" />
+    <ignored path="output/97000062.jpg_o.png" />
+    <ignored path="output/97000070.jpg_o.png" />
+    <ignored path="output/97000089.jpg_o.png" />
+    <ignored path="output/97000091.jpg_o.png" />
+    <ignored path="output/97000101.jpg_o.png" />
+    <ignored path="output/97000117.jpg_o.png" />
+    <ignored path="output/97000129.jpg_o.png" />
+    <ignored path="output/97000138.jpg_o.png" />
+    <ignored path="output/97000516.jpg_o.png" />
+    <ignored path="output/97000528.jpg_o.png" />
+    <ignored path="output/97000537.jpg_o.png" />
+    <ignored path="output/97001501.jpg_o.png" />
+    <ignored path="output/97001517.jpg_o.png" />
+    <ignored path="output/97001529.jpg_o.png" />
+    <ignored path="output/97001538.jpg_o.png" />
+    <ignored path="output/97001540.jpg_o.png" />
+    <ignored path="output/97001555.jpg_o.png" />
+    <ignored path="output/97001564.jpg_o.png" />
+    <ignored path="output/97001572.jpg_o.png" />
+    <ignored path="output/97001586.jpg_o.png" />
+    <ignored path="output/97001604.jpg_o.png" />
+    <ignored path="output/97001615.jpg_o.png" />
+    <ignored path="output/97001627.jpg_o.png" />
+    <ignored path="output/97001636.jpg_o.png" />
+    <ignored path="output/97001643.jpg_o.png" />
+    <ignored path="output/97001658.jpg_o.png" />
+    <ignored path="output/97001662.jpg_o.png" />
+    <ignored path="output/97002007.jpg_o.png" />
+    <ignored path="output/97002011.jpg_o.png" />
+    <ignored path="output/97002053.jpg_o.png" />
+    <ignored path="output/97002076.jpg_o.png" />
+    <ignored path="output/97003002.jpg_o.png" />
+    <ignored path="output/97003018.jpg_o.png" />
+    <ignored path="output/97003025.jpg_o.png" />
+    <ignored path="output/97003039.jpg_o.png" />
+    <ignored path="output/97003041.jpg_o.png" />
+    <ignored path="output/97003056.jpg_o.png" />
+    <ignored path="output/97003060.jpg_o.png" />
+    <ignored path="output/97003073.jpg_o.png" />
+    <ignored path="output/97003087.jpg_o.png" />
+    <ignored path="output/97003104.jpg_o.png" />
+    <ignored path="output/97003115.jpg_o.png" />
+    <ignored path="output/97003127.jpg_o.png" />
+    <ignored path="output/97003136.jpg_o.png" />
+    <ignored path="output/97003143.jpg_o.png" />
+    <ignored path="output/97003158.jpg_o.png" />
+    <ignored path="output/97003503.jpg_o.png" />
+    <ignored path="output/97003519.jpg_o.png" />
+    <ignored path="output/97003557.jpg_o.png" />
+    <ignored path="output/97003561.jpg_o.png" />
+    <ignored path="output/97003574.jpg_o.png" />
+    <ignored path="output/97004507.jpg_o.png" />
+    <ignored path="output/97004511.jpg_o.png" />
+    <ignored path="output/97004524.jpg_o.png" />
+    <ignored path="output/97004530.jpg_o.png" />
+    <ignored path="output/97004548.jpg_o.png" />
+    <ignored path="output/97004553.jpg_o.png" />
+    <ignored path="output/97004569.jpg_o.png" />
+    <ignored path="output/97004576.jpg_o.png" />
+    <ignored path="output/97004582.jpg_o.png" />
+    <ignored path="output/97004595.jpg_o.png" />
+    <ignored path="output/97004609.jpg_o.png" />
+    <ignored path="output/97004613.jpg_o.png" />
+    <ignored path="output/97004621.jpg_o.png" />
+    <ignored path="output/97004632.jpg_o.png" />
+    <ignored path="output/97004666.jpg_o.png" />
+    <ignored path="output/97004678.jpg_o.png" />
+    <ignored path="output/97005009.jpg_o.png" />
+    <ignored path="output/97005032.jpg_o.png" />
+    <ignored path="output/97005045.jpg_o.png" />
+    <ignored path="output/97005050.jpg_o.png" />
+    <ignored path="output/97005066.jpg_o.png" />
+    <ignored path="output/97005097.jpg_o.png" />
+    <ignored path="output/98000001.jpg_o.png" />
+    <ignored path="output/98000038.jpg_o.png" />
+    <ignored path="output/98000040.jpg_o.png" />
+    <ignored path="output/98000055.jpg_o.png" />
+    <ignored path="output/98000064.jpg_o.png" />
+    <ignored path="output/98000404.jpg_o.png" />
+    <ignored path="output/98000436.jpg_o.png" />
+    <ignored path="output/98000443.jpg_o.png" />
+    <ignored path="output/98002406.jpg_o.png" />
+    <ignored path="output/98002410.jpg_o.png" />
+    <ignored path="output/98002423.jpg_o.png" />
+    <ignored path="output/98002434.jpg_o.png" />
+    <ignored path="output/98002447.jpg_o.png" />
+    <ignored path="output/98002452.jpg_o.png" />
+    <ignored path="output/98002475.jpg_o.png" />
+    <ignored path="output/98002803.jpg_o.png" />
+    <ignored path="output/98002842.jpg_o.png" />
+    <ignored path="output/98003603.jpg_o.png" />
+    <ignored path="output/98003619.jpg_o.png" />
+    <ignored path="output/98003626.jpg_o.png" />
+    <ignored path="output/98003635.jpg_o.png" />
+    <ignored path="output/98003642.jpg_o.png" />
+    <ignored path="output/98003674.jpg_o.png" />
+    <ignored path="output/98004005.jpg_o.png" />
+    <ignored path="output/98004014.jpg_o.png" />
+    <ignored path="output/98004022.jpg_o.png" />
+    <ignored path="output/lena.png_o.png" />
+    <ignored path="output/OcvFx.iml" />
+    <ignored path="src/resources/imageTestOSorigin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,23 +1046,19 @@
       <file leaf-file-name="FaceDetector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/FaceDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="164" column="68" lean-forward="false" selection-start-line="164" selection-start-column="68" selection-end-line="164" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/LogReport.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,6 +1078,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -80,10 +1091,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/resources/fileList.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/com/company/LogReport.java" />
+        <option value="$PROJECT_DIR$/Report/FaceLog_010817_033844.csv" />
         <option value="$PROJECT_DIR$/src/com/company/FaceDetector.java" />
+        <option value="$PROJECT_DIR$/Report/FaceLog_010817_041327.csv" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -94,14 +1107,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="96" />
-    <option name="y" value="50" />
-    <option name="width" value="1500" />
-    <option name="height" value="846" />
+    <option name="y" value="36" />
+    <option name="width" value="1600" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -147,8 +1159,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="Report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OcvFx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OcvFx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencv-2413.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -167,6 +1197,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -193,72 +1225,8 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="OcvFx">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="OcvFx">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="imageTestOS">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="OcvFx">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="resources">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="image">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -274,19 +1242,20 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/image" />
+      <recent name="$PROJECT_DIR$/src/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/out/production/OcvFx/com/company" />
       <recent name="$PROJECT_DIR$/src/com/company" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources/image" />
-      <recent name="$PROJECT_DIR$/src/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -800,12 +1769,19 @@
       <workItem from="1501202804764" duration="15932000" />
       <workItem from="1501485499579" duration="873000" />
       <workItem from="1501486412977" duration="494000" />
-      <workItem from="1501487065961" duration="4603000" />
+      <workItem from="1501487065961" duration="5142000" />
+      <workItem from="1501492976270" duration="355000" />
+      <workItem from="1501547680320" duration="6723000" />
+      <workItem from="1501561213019" duration="138000" />
+      <workItem from="1501561426970" duration="176000" />
+      <workItem from="1501561633429" duration="31000" />
+      <workItem from="1501562137704" duration="13078000" />
+      <workItem from="1501580730017" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41928000" />
+    <option name="totallyTimeSpent" value="63032000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -817,36 +1793,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="96" y="50" width="1500" height="846" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="36" width="1600" height="864" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33285093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33145276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40338504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28817058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2001287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -865,8 +1841,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -874,67 +1855,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/FaceDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FaceDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FaceDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FaceDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/opencv-2413.jar!/org/opencv/core/Core.java" />
-    <entry file="file://$PROJECT_DIR$/src/resources/image/lena.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/lbpcascade_frontalface.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/haarcascade_frontalface_alt.xml" />
-    <entry file="file://$PROJECT_DIR$/src/satu.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/OcvFx/com/company/haarcascade_frontalface_alt.xml" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/io/File.java" />
-    <entry file="file://$PROJECT_DIR$/Report/FaceLog270717_102322.csv" />
-    <entry file="file://$PROJECT_DIR$/Report/FaceLog_270717_103422.csv" />
-    <entry file="file://$PROJECT_DIR$/Report/FaceLog_270717_102822.csv" />
-    <entry file="file://$PROJECT_DIR$/Report/FaceLog_270717_103551.csv" />
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_270717_103812.csv" />
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_270717_104104.csv" />
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_270717_104124.csv" />
@@ -967,58 +1887,82 @@
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_280717_093647.csv" />
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_280717_095931.csv" />
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_280717_100406.csv" />
-    <entry file="file://$PROJECT_DIR$/ouput.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ouput.png" />
     <entry file="file://$PROJECT_DIR$/Report/FaceLog_280717_103658.csv" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
           <caret line="1052" column="49" lean-forward="false" selection-start-line="1052" selection-start-column="49" selection-end-line="1052" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10000837.jpg_o.png">
+    <entry file="file://$PROJECT_DIR$/10000837.jpg_o.png" />
+    <entry file="file://$PROJECT_DIR$/src/resources/imageTestOS/93001563.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/resources/imageTestOS/93001544.jpg" />
+    <entry file="file://$PROJECT_DIR$/93001571.jpg_o.png" />
+    <entry file="file://$PROJECT_DIR$/src/resources/image/lena.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/imageTestOS/93001563.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_310717_103051.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_310717_103700.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_310717_103844.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_310717_103906.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_310717_104030.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_310717_104538.csv" />
+    <entry file="jar://$PROJECT_DIR$/lib/opencv-2413.jar!/org/opencv/objdetect/CascadeClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/imageTestOS/93001544.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/lena.png_o.png" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_010817_010140.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_010817_010041.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_010817_123617.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17783">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/93001571.jpg_o.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_010817_012025.csv" />
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_010817_033844.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3456">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/FaceLog_010817_041327.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17797">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LogReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/FaceDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="211">
+          <caret line="164" column="68" lean-forward="false" selection-start-line="164" selection-start-column="68" selection-end-line="164" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +2030,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>opencv-2413</last-edited>
+          <last-edited>opencv-2413 (2)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

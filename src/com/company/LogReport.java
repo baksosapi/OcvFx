@@ -62,6 +62,8 @@ class LogReport {
             buff.write(fName);
             buff.write(44);
             buff.write((Integer.toString(numFace)));
+            buff.write(44);
+            buff.write(size);
 
             buff.write(10);
             buff.close();
